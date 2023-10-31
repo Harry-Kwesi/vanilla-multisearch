@@ -138,11 +138,6 @@ function filterTable() {
 filterInput.addEventListener("input", filterTable);
 
 // Call the createTableWithData function to fetch data and generate the table
-// createTableWithData();
-
-// filterTable();
-
-// Call the createTableWithData function to fetch data and generate the table
 createTableWithData().then(() => {
   // Call the filterTable function initially to show all rows
   filterTable();
